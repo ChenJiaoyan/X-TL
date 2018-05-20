@@ -7,7 +7,7 @@ import java.util.*;
 
 public class RootEntRun {
 
-    private static String HOME_DIR = "/Users/jiahen/Data/US_flights";
+    private static String HOME_DIR = "your home dir";
     private static String ontIRI = "http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#";
     private static String SNP = "Snapshots_test";
     private static String ENT = "Entailments";

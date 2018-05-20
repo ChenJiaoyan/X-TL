@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class XKnowRun {
-    private static String HOME_DIR = "/Users/jiahen/Data/US_flights/ExpRes1/Entailments";
+    private static String HOME_DIR = "your_home_dir/Onto/Entailments";
 
     public static void main(String args[]) throws IOException {
         for (String dom: read_doms()) {

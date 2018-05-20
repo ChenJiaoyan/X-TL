@@ -7,7 +7,7 @@ import java.util.HashMap;
 
 public class BuildKBRun {
 
-    private static String HOME_DIR = "/Users/jiahen/Data/US_flights";
+    private static String HOME_DIR = "your_home_dir";
     private static String SNP = "Snapshots";
     private static DataAccess data = null;
     private static String ontIRI = "http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#";
