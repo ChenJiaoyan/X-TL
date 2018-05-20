@@ -1,6 +1,6 @@
 # X-TL
 
-This project contains the codes, ontology and data for the work "Transfer Learning Explanation with Ontologies".
+This project contains the codes, ontology and data for the paper "Transfer Learning Explanation with Ontologies".
 
 ./Data: Information for data access and download
 
