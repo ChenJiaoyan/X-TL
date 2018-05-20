@@ -1,0 +1,2228 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#"
+     xml:base="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasCarrier -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasCarrier">
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+        <rdfs:range rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Carrier"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasDest -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasDest">
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+        <rdfs:range rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasFlight -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasFlight">
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+        <rdfs:range rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Flight"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiAirport1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiAirport1">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#neighbourAirportProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiAirport2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiAirport2">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#neighbourAirportProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiAirport3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiAirport3">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#neighbourAirportProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep1_1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep1_1">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#neighbourRecentDepProperty"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiAirport1"/>
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep1"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep1_2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep1_2">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#neighbourRecentDepProperty"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiAirport1"/>
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep2"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep1_3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep1_3">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#neighbourRecentDepProperty"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiAirport1"/>
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep3"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep1_4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep1_4">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#neighbourRecentDepProperty"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiAirport1"/>
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep4"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep1_5 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep1_5">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#neighbourRecentDepProperty"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiAirport1"/>
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep5"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep2_1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep2_1">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#neighbourRecentDepProperty"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiAirport2"/>
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep1"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep2_2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep2_2">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#neighbourRecentDepProperty"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiAirport2"/>
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep2"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep2_3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep2_3">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#neighbourRecentDepProperty"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiAirport2"/>
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep3"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep2_4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep2_4">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#neighbourRecentDepProperty"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiAirport2"/>
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep4"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep2_5 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep2_5">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#neighbourRecentDepProperty"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiAirport2"/>
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep5"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep3_1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep3_1">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#neighbourRecentDepProperty"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiAirport3"/>
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep1"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep3_2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep3_2">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#neighbourRecentDepProperty"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiAirport3"/>
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep2"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep3_3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep3_3">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#neighbourRecentDepProperty"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiAirport3"/>
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep3"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep3_4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep3_4">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#neighbourRecentDepProperty"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiAirport3"/>
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep4"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep3_5 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiRecDep3_5">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#neighbourRecentDepProperty"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNeiAirport3"/>
+            <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep5"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasOrigin -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasOrigin">
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+        <rdfs:range rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarDep1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarDep1">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentCarrierDepProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarDep10 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarDep10">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentCarrierDepProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarDep2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarDep2">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentCarrierDepProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarDep3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarDep3">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentCarrierDepProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarDep4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarDep4">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentCarrierDepProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarDep5 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarDep5">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentCarrierDepProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarDep6 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarDep6">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentCarrierDepProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarDep7 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarDep7">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentCarrierDepProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarDep8 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarDep8">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentCarrierDepProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarDep9 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarDep9">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentCarrierDepProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarOriDep1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarOriDep1">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentCarrierOriginDepProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarOriDep2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarOriDep2">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentCarrierOriginDepProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarOriDep3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarOriDep3">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentCarrierOriginDepProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarOriDep4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarOriDep4">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentCarrierOriginDepProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarOriDep5 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecCarOriDep5">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentCarrierOriginDepProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep1">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentDepProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep10 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep10">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentDepProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep11 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep11">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentDepProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep12 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep12">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentDepProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep13 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep13">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentDepProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep2">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentDepProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep3">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentDepProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep4">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentDepProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep5 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep5">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentDepProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep6 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep6">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentDepProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep7 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep7">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentDepProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep8 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep8">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentDepProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep9 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasRecDep9">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentDepProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasWeather -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasWeather">
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+        <rdfs:range rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Weather"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#locatedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#locatedIn">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#GeoLocation"/>
+        <rdfs:range rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#GeoLocation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#neighbourAirportProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#neighbourAirportProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+        <rdfs:range rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#neighbourRecentDepProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#neighbourRecentDepProperty">
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+        <rdfs:range rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentCarrierDepProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentCarrierDepProperty">
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Carrier"/>
+        <rdfs:range rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentCarrierOriginDepProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentCarrierOriginDepProperty">
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Carrier"/>
+        <rdfs:range rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentDepProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#recentDepProperty">
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+        <rdfs:range rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#serveCity -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#serveCity">
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+        <rdfs:range rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#City"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#departureProperty -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#departureProperty"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasArrDelay -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasArrDelay">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#departureProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasArrTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasArrTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#departureProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasArrivalDelayGroups -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasArrivalDelayGroups">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#departureProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasCRSArrTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasCRSArrTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#departureProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasCRSDepTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasCRSDepTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#departureProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasCancelCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasCancelCode">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#departureProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Cancelled"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasCarrierDelay -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasCarrierDelay">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#departureProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasCarrierName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasCarrierName">
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Carrier"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasCloudCover -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasCloudCover">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#weatherProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasDepDelay -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasDepDelay">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#departureProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasDepTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasDepTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#departureProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasDepartureDelayGroups -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasDepartureDelayGroups">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#departureProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasDewPoint -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasDewPoint">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#weatherProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasDistance -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasDistance">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#departureProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasDistanceGroup -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasDistanceGroup">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#departureProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasFlightDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasFlightDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#departureProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasHumidity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasHumidity">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#weatherProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasLateAircraftDelay -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasLateAircraftDelay">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#departureProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasLocationName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasLocationName">
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#GeoLocation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNASDelay -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNASDelay">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#departureProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasPrecipType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasPrecipType">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#weatherProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasPressure -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasPressure">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#weatherProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasSecurityDelay -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasSecurityDelay">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#departureProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasSummary -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasSummary">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#weatherProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasTemperature -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasTemperature">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#weatherProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasVisibility -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasVisibility">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#weatherProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasWeatherDelay -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasWeatherDelay">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#departureProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasWindBearing -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasWindBearing">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#weatherProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasWindSpeed -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasWindSpeed">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#weatherProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#weatherProperty -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#weatherProperty">
+        <rdfs:domain rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Weather"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#GeoLocation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#locatedIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#City"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#ArrDelayed -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#ArrDelayed">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasArrDelay"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</xsd:minExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#ArrOnTime -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#ArrOnTime">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasArrDelay"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</xsd:maxInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Breezy -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Breezy">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Weather"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasSummary"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breezy</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#WindWeather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Cancelled -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Cancelled">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Carrier -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Carrier"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#CarrierDelay -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#CarrierDelay">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasCarrierDelay"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</xsd:minExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#DelayType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#City -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#City">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#GeoLocation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Clear -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Clear">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Weather"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasSummary"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clear</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#CloudWeather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#CloudWeather -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#CloudWeather">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Weather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#DangerouslyWindy -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#DangerouslyWindy">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Weather"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasSummary"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dangerously Windy</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#WindWeather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#DelayType -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#DelayType">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#DepDelayed -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#DepDelayed">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasDepDelay"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</xsd:minExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#DepOnTime -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#DepOnTime">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasDepDelay"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</xsd:maxInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasCarrier"/>
+                <owl:someValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Carrier"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasDest"/>
+                <owl:someValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasOrigin"/>
+                <owl:someValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Destination -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Destination">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Drizzle -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Drizzle">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Weather"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasSummary"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drizzle</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#WindWeather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Dry -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Dry">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Weather"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasSummary"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dry</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Flight -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Flight"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Flurries -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Flurries">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Weather"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasSummary"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flurries</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#SnowWeather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Foggy -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Foggy">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Weather"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasSummary"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Foggy</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#CloudWeather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#GeoLocation -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#GeoLocation"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#HeavyRain -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#HeavyRain">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Weather"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasSummary"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heavy Rain</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#RainWeather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#HeavySnow -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#HeavySnow">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Weather"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasSummary"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heavy Snow</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#SnowWeather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Humid -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Humid">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Weather"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasSummary"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Humid</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#LateAircraftDelay -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#LateAircraftDelay">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasLateAircraftDelay"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</xsd:minExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#DelayType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#LightRain -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#LightRain">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Weather"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasSummary"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Light Rain</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#RainWeather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#LightSnow -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#LightSnow">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Weather"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasSummary"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Light Snow</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#SnowWeather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#MostlyCloudy -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#MostlyCloudy">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Weather"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasSummary"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mostly Cloudy</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#CloudWeather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#NASDelay -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#NASDelay">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasNASDelay"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</xsd:minExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#DelayType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Origin -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Origin">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Overcast -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Overcast">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Weather"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasSummary"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Overcast</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#CloudWeather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#PartlyCloudy -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#PartlyCloudy">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Weather"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasSummary"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Partly Cloudy</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#CloudWeather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#PossibleLightRain -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#PossibleLightRain">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Weather"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasSummary"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Possible Light Rain</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#RainWeather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#PossibleLightSnow -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#PossibleLightSnow">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Weather"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasSummary"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Possible Light Snow</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#SnowWeather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#RainWeather -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#RainWeather">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Weather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#SecurityDelay -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#SecurityDelay">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasSecurityDelay"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</xsd:minExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#DelayType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Snow -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Snow">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Weather"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasSummary"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Snow</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#SnowWeather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#SnowWeather -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#SnowWeather">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Weather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#State -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#State">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#GeoLocation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Weather -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Weather">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasSummary"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#WeatherDelay -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#WeatherDelay">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Departure"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasWeatherDelay"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</xsd:minExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#DelayType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#WindWeather -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#WindWeather">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Weather"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Windy -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Windy">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Weather"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#hasSummary"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Windy</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#WindWeather"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#AA -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#AA">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Carrier"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#ATL -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#ATL">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+        <hasNeiAirport1 rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#CLT"/>
+        <hasNeiAirport2 rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#SAV"/>
+        <hasNeiAirport3 rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#BNA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#AUS -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#AUS">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#B6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#B6">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Carrier"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#BNA -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#BNA">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#BOS -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#BOS">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#BUR -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#BUR">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#CHS -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#CHS">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#CLT -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#CLT">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+        <hasNeiAirport1 rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#ATL"/>
+        <hasNeiAirport2 rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#RDU"/>
+        <hasNeiAirport3 rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#CHS"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#CO -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#CO">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Carrier"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#DFW -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#DFW">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+        <hasNeiAirport1 rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#OKC"/>
+        <hasNeiAirport2 rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#AUS"/>
+        <hasNeiAirport3 rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#IAH"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#DL -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#DL">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Carrier"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#DTW -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#DTW">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#EM -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#EM">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Carrier"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#EQ -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#EQ">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Carrier"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#EWR -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#EWR">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+        <hasNeiAirport1 rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#LGA"/>
+        <hasNeiAirport2 rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#JFK"/>
+        <hasNeiAirport3 rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#PHL"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#F9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#F9">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Carrier"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#FL -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#FL">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Carrier"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#IAH -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#IAH">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#JFK -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#JFK">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+        <hasNeiAirport1 rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#LGA"/>
+        <hasNeiAirport2 rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#EWR"/>
+        <hasNeiAirport3 rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#PHL"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#LAX -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#LAX">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+        <hasNeiAirport1 rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#BUR"/>
+        <hasNeiAirport2 rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#SNA"/>
+        <hasNeiAirport3 rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#SAN"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#LGA -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#LGA">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#MDW -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#MDW">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#MKE -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#MKE">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#MU -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#MU">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Carrier"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#NK -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#NK">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Carrier"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#OAK -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#OAK">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#OKC -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#OKC">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#ORD -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#ORD">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+        <hasNeiAirport1 rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#MDW"/>
+        <hasNeiAirport2 rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#MKE"/>
+        <hasNeiAirport3 rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#DTW"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#PHL -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#PHL">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#RDU -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#RDU">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#SAN -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#SAN">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#SAV -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#SAV">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#SFO -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#SFO">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+        <hasNeiAirport1 rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#OAK"/>
+        <hasNeiAirport2 rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#SJC"/>
+        <hasNeiAirport3 rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#SMF"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#SJC -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#SJC">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#SMF -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#SMF">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#SNA -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#SNA">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Airport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#S_CA -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#S_CA">
+        <hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</hasLocationName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#S_MA -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#S_MA">
+        <hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Massachusetts</hasLocationName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#S_NJ -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#S_NJ">
+        <hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New Jersey</hasLocationName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#S_NY -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#S_NY">
+        <hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New York</hasLocationName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#UA -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#UA">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Carrier"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#VX -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#VX">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Carrier"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#WN -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#WN">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Carrier"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#5X -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#5X">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Carrier"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#5Y -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#5Y">
+        <rdf:type rdf:resource="http://www.cs.ox.ac.uk/isg/krr/ontologies/FlightOntology-1#Carrier"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
