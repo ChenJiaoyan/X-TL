@@ -1,0 +1,290 @@
+BOS,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+BOS,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+BOS,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+BOS,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+BOS,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+BOS,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+NK,<http://www.w3.org/2000/01/rdf-schema#label>,<Spirit Airlines@en>
+NK,<http://dbpedia.org/ontology/headquarter>,<http://dbpedia.org/resource/Miramar,_Florida>
+OAK,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+OAK,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+OAK,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+OAK,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+OAK,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+OAK,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+SAV,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+SAV,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+SAV,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+SAV,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+SAV,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+SAV,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+SAN,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+SAN,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+SAN,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+SAN,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+SAN,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+SAN,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+Fort_Worth,<http://www.w3.org/2000/01/rdf-schema#label>,<Fort Worth@en>
+OKC,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+OKC,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+OKC,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+OKC,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+OKC,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+OKC,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+CO,<http://www.w3.org/2000/01/rdf-schema#label>,<Continental Airlines@en>
+CO,<http://dbpedia.org/ontology/headquarter>,<http://dbpedia.org/resource/Chicago>
+CO,<http://dbpedia.org/ontology/headquarter>,<http://dbpedia.org/resource/Illinois>
+CO,<http://dbpedia.org/ontology/headquarter>,<http://dbpedia.org/resource/United_States_of_America>
+CO,<http://dbpedia.org/ontology/headquarter>,<http://dbpedia.org/resource/77_West_Wacker_Drive>
+CO,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Antonio_B._Won_Pat_International_Airport>
+CO,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Cleveland_Hopkins_International_Airport>
+CO,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/George_Bush_Intercontinental_Airport>
+CO,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Newark_Liberty_International_Airport>
+AUS,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+AUS,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+AUS,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+AUS,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+AUS,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+AUS,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+SJC,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+SJC,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+SJC,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+SJC,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+SJC,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+SJC,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+des,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+des,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+des,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+des,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+des,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+des,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+Charlotte,<http://www.w3.org/2000/01/rdf-schema#label>,<Charlotte@en>
+S_GA,<http://www.w3.org/2000/01/rdf-schema#label>,<Georgia (U.S. state)@en>
+S_GA,<http://dbpedia.org/property/east>,<Atlantic Ocean^^http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
+S_GA,<http://dbpedia.org/property/southeast>,<Atlantic Ocean^^http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
+LAX,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+LAX,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+LAX,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+LAX,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+LAX,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+LAX,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+BUR,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+BUR,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+BUR,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+BUR,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+BUR,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+BUR,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+ori,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+ori,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+ori,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+ori,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+ori,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+ori,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+RDU,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+RDU,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+RDU,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+RDU,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+RDU,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+RDU,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+S_NJ,<http://www.w3.org/2000/01/rdf-schema#label>,<New Jersey@en>
+S_NJ,<http://dbpedia.org/property/east>,<http://dbpedia.org/resource/Atlantic_Ocean>
+SNA,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+SNA,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+SNA,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+SNA,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+SNA,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+SNA,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+UA,<http://www.w3.org/2000/01/rdf-schema#label>,<United Airlines@en>
+UA,<http://dbpedia.org/ontology/headquarter>,<http://dbpedia.org/resource/United_States>
+UA,<http://dbpedia.org/ontology/headquarter>,<http://dbpedia.org/resource/Chicago>
+UA,<http://dbpedia.org/ontology/headquarter>,<http://dbpedia.org/resource/Illinois>
+UA,<http://dbpedia.org/ontology/headquarter>,<http://dbpedia.org/resource/Willis_Tower>
+UA,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Narita_International_Airport>
+UA,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Los_Angeles_International_Airport>
+UA,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Washington_Dulles_International_Airport>
+UA,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Antonio_B._Won_Pat_International_Airport>
+UA,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Denver_International_Airport>
+UA,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/George_Bush_Intercontinental_Airport>
+UA,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/O'Hare_International_Airport>
+UA,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/San_Francisco_International_Airport>
+UA,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Newark_Liberty_International_Airport>
+Atlanta,<http://www.w3.org/2000/01/rdf-schema#label>,<Atlanta@en>
+SFO,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+SFO,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+SFO,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+SFO,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+SFO,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+SFO,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+S_NC,<http://www.w3.org/2000/01/rdf-schema#label>,<North Carolina@en>
+S_NC,<http://dbpedia.org/property/east>,<,^^http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
+S_NC,<http://dbpedia.org/property/east>,<Atlantic Ocean^^http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
+EM,<http://www.w3.org/2000/01/rdf-schema#label>,<Empire Airlines@en>
+EM,<http://dbpedia.org/ontology/headquarter>,<http://dbpedia.org/resource/United_States>
+EM,<http://dbpedia.org/ontology/headquarter>,<http://dbpedia.org/resource/Idaho>
+EM,<http://dbpedia.org/ontology/headquarter>,<http://dbpedia.org/resource/Hayden,_Idaho>
+CLT,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+CLT,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+CLT,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+CLT,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+CLT,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+CLT,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+MU,<http://www.w3.org/2000/01/rdf-schema#label>,<China Eastern Airlines@en>
+MU,<http://dbpedia.org/ontology/headquarter>,<http://dbpedia.org/resource/China>
+MU,<http://dbpedia.org/ontology/headquarter>,<http://dbpedia.org/resource/Shanghai>
+MU,<http://dbpedia.org/ontology/headquarter>,<http://dbpedia.org/resource/Shanghai_Hongqiao_International_Airport>
+MU,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Xi'an_Xianyang_International_Airport>
+MU,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Beijing_Capital_International_Airport>
+MU,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Shanghai_Hongqiao_International_Airport>
+MU,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Shanghai_Pudong_International_Airport>
+MU,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Kunming_Changshui_International_Airport>
+LGA,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+LGA,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+LGA,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+LGA,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+LGA,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+LGA,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+Savannah,<http://www.w3.org/2000/01/rdf-schema#label>,<Savannah@en>
+IAH,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+IAH,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+IAH,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+IAH,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+IAH,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+IAH,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+BNA,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+BNA,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+BNA,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+BNA,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+BNA,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+BNA,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+B6,<http://www.w3.org/2000/01/rdf-schema#label>,<JetBlue@en>
+B6,<http://dbpedia.org/ontology/headquarter>,<http://dbpedia.org/resource/Brewster_Building_(Queens)>
+B6,<http://dbpedia.org/ontology/headquarter>,<http://dbpedia.org/resource/Long_Island_City>
+B6,<http://dbpedia.org/ontology/headquarter>,<http://dbpedia.org/resource/New_York_(state)>
+EWR,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+EWR,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+EWR,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+EWR,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+EWR,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+EWR,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+S_MA,<http://www.w3.org/2000/01/rdf-schema#label>,<Massachusetts@en>
+S_MA,<http://dbpedia.org/property/east>,<Atlantic Ocean^^http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
+S_MA,<http://dbpedia.org/property/southeast>,<http://dbpedia.org/resource/Cape_Cod>
+S_MA,<http://dbpedia.org/property/southeast>,<Martha's Vineyard and Nantucket Island^^http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
+ORD,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+ORD,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+ORD,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+ORD,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+ORD,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+ORD,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+DFW,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+DFW,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+DFW,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+DFW,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+DFW,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+DFW,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+SMF,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+SMF,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+SMF,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+SMF,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+SMF,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+SMF,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+S_TX,<http://www.w3.org/2000/01/rdf-schema#label>,<Texas@en>
+S_TX,<http://dbpedia.org/property/southeast>,<http://dbpedia.org/resource/Gulf_of_Mexico>
+S_TX,<http://dbpedia.org/property/southwest>,<,^^http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
+S_TN,<http://www.w3.org/2000/01/rdf-schema#label>,<Tennessee@en>
+WN,<http://www.w3.org/2000/01/rdf-schema#label>,<Southwest Airlines@en>
+WN,<http://dbpedia.org/ontology/headquarter>,<http://dbpedia.org/resource/United_States>
+WN,<http://dbpedia.org/ontology/headquarter>,<http://dbpedia.org/resource/Dallas,_Texas>
+MDW,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+MDW,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+MDW,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+MDW,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+MDW,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+MDW,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+Nashville,<http://www.w3.org/2000/01/rdf-schema#label>,<Nashville@en>
+Dallas,<http://www.w3.org/2000/01/rdf-schema#label>,<Dallas@en>
+ATL,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+ATL,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+ATL,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+ATL,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+ATL,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+ATL,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+PHL,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+PHL,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+PHL,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+PHL,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+PHL,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+PHL,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+DTW,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+DTW,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+DTW,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+DTW,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+DTW,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+DTW,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+DL,<http://www.w3.org/2000/01/rdf-schema#label>,<Delta Air Lines@en>
+DL,<http://dbpedia.org/ontology/headquarter>,<http://dbpedia.org/resource/Atlanta>
+DL,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Narita_International_Airport>
+DL,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Los_Angeles_International_Airport>
+DL,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Amsterdam_Airport_Schiphol>
+DL,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Charles_de_Gaulle_Airport>
+DL,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/John_F._Kennedy_International_Airport>
+DL,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Cincinnati/Northern_Kentucky_International_Airport>
+DL,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Detroit_Metropolitan_Airport>
+DL,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Hartsfield–Jackson_Atlanta_International_Airport>
+DL,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/LaGuardia_Airport>
+DL,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Logan_International_Airport>
+DL,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Minneapolis–Saint_Paul_International_Airport>
+DL,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Salt_Lake_City_International_Airport>
+DL,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Seattle–Tacoma_International_Airport>
+S_FL,<http://www.w3.org/2000/01/rdf-schema#label>,<Florida@en>
+S_FL,<http://dbpedia.org/property/east>,<Atlantic Ocean^^http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
+S_FL,<http://dbpedia.org/property/southeast>,<Bimini, Grand Cay and West Grand Bahama,^^http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
+S_FL,<http://dbpedia.org/property/west>,<http://dbpedia.org/resource/Gulf_of_Mexico>
+AA,<http://www.w3.org/2000/01/rdf-schema#label>,<American Airlines@en>
+AA,<http://dbpedia.org/ontology/headquarter>,<http://dbpedia.org/resource/Fort_Worth>
+AA,<http://dbpedia.org/ontology/headquarter>,<http://dbpedia.org/resource/Texas>
+AA,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Los_Angeles_International_Airport>
+AA,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/John_F._Kennedy_International_Airport>
+AA,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Miami_International_Airport>
+AA,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Phoenix_Sky_Harbor_International_Airport>
+AA,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Charlotte_Douglas_International_Airport>
+AA,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Dallas/Fort_Worth_International_Airport>
+AA,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/LaGuardia_Airport>
+AA,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/O'Hare_International_Airport>
+AA,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Philadelphia_International_Airport>
+AA,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Ronald_Reagan_Washington_National_Airport>
+S_NY,<http://www.w3.org/2000/01/rdf-schema#label>,<New York@en>
+S_NY,<http://dbpedia.org/property/east>,<Atlantic Ocean*,^^http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
+S_NY,<http://dbpedia.org/property/northeast>,<,^^http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
+S_NY,<http://dbpedia.org/property/northwest>,<http://dbpedia.org/resource/Lake_Erie>
+S_NY,<http://dbpedia.org/property/northwest>,<http://dbpedia.org/resource/Lake_Ontario>
+S_NY,<http://dbpedia.org/property/northwest>,<,^^http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
+S_NY,<http://dbpedia.org/property/southeast>,<http://dbpedia.org/resource/Atlantic_Ocean>
+S_NY,<http://dbpedia.org/property/southeast>,<,  and^^http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
+S_NY,<http://dbpedia.org/property/west>,<,^^http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
+CHS,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+CHS,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+CHS,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+CHS,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+CHS,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+CHS,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+JFK,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+JFK,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+JFK,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+JFK,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+JFK,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+JFK,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+VX,<http://www.w3.org/2000/01/rdf-schema#label>,<Virgin America@en>
+VX,<http://dbpedia.org/ontology/headquarter>,<http://dbpedia.org/resource/Burlingame,_California>
+VX,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/Los_Angeles_International_Airport>
+VX,<http://dbpedia.org/ontology/hubAirport>,<http://dbpedia.org/resource/San_Francisco_International_Airport>
+MKE,<http://www.w3.org/2000/01/rdf-schema#label>,<John F. Kennedy International Airport@en>
+MKE,<http://dbpedia.org/ontology/city>,<http://dbpedia.org/resource/New_York_metropolitan_area>
+MKE,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Queens>
+MKE,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/Jamaica,_Queens>
+MKE,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_City>
+MKE,<http://dbpedia.org/ontology/location>,<http://dbpedia.org/resource/New_York_(state)>
+S_CA,<http://www.w3.org/2000/01/rdf-schema#label>,<California@en>
+S_CA,<http://dbpedia.org/property/northwest>,<Pacific Ocean^^http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
+S_CA,<http://dbpedia.org/property/southwest>,<Pacific Ocean^^http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
+S_CA,<http://dbpedia.org/property/west>,<Pacific Ocean^^http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>
