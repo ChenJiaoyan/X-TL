@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/sirius/Sample/DL_ATL_DFW_1500_1759/CNN.ckpt"
+all_model_checkpoint_paths: "/home/sirius/Sample/DL_ATL_DFW_1500_1759/CNN.ckpt"
