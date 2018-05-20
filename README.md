@@ -2,7 +2,7 @@
 
 This project contains the codes, ontology and data for the paper "Transfer Learning Explanation with Ontologies".
 
-./Data: Information for data access and download
+./Data/HowToAccessData.md: Information for data access and download
 
 ./Onto/FlightOntology.owl: OWL ontology (TBox axioms of concepts and roles, and some important individuals)
 
@@ -13,5 +13,11 @@ This project contains the codes, ontology and data for the paper "Transfer Learn
 ./Flight_RL/Learn: Prediction input/output processing (ExtXY.py), CNN feature transfer implemented with Tensorflow 1.4.0 (CNN.py), Transferability measurement (TraEva.py) 
 
 ./Flight_RL/Explain: Inference of explanatory evidence
+
+./Data/Sample: Input/output and learned CNN model of an example learning domain
+
+./Data/ST_Result: Transferability index of soft transfer (FGI) of some example transfers
+
+./Data/HT_Result: Transferability index of hard transfer (FSI) of some example transfers
 
 For any questions, please contact jiaoyan.chen@cs.ox.ac.uk
