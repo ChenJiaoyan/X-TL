@@ -1,4 +1,4 @@
-Data: 1) US flights data from 01/01/2010 to 07/01/2017, 2) Hourly meteorology records in 9 airport from 01/01/2010 to 07/01/2017.
+Data: 1) US flights data from 01/01/2010 to 07/01/2017, 2) Hourly meteorology records in 10 airports from 01/01/2010 to 07/01/2017.
   
 There are two ways to access data:
 
