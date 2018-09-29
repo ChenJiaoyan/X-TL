@@ -2,7 +2,7 @@
 
 This project contains some code examples, flight ontology and data used in the paper "Knowledge-based Transfer Learning Explanation, KR 2018".
 
-# Data/HowToAccessData.md: Information for data access and download
+### Data/HowToAccessData.md: Information for data access and download
 
 # Onto/FlightOntology.owl: OWL ontology (TBox axioms of concepts and roles, and some important individuals)
 
