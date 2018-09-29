@@ -1,6 +1,6 @@
 # Transfer Learning Explanation
 
-This project contains some code examples, flight ontology and data for the paper "Knowledge-based Transfer Learning Explanation".
+This project contains some code examples, flight ontology and data used in the paper "Knowledge-based Transfer Learning Explanation, KR 2018".
 
 ./Data/HowToAccessData.md: Information for data access and download
 
@@ -20,4 +20,4 @@ This project contains some code examples, flight ontology and data for the paper
 
 ./Data/HT_Result: Transferability index of hard transfer (FSI) of some example transfers
 
-For any questions, please contact jiaoyan.chen@cs.ox.ac.uk
+For more details, please contact the authors.
