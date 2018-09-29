@@ -1,6 +1,6 @@
 # Transfer Learning Explanation
 
-This project contains the codes, ontology and data for the paper "Transfer Learning Explanation with Ontologies".
+This project contains code examples, flight ontology and data for the paper "Knowledge-based Transfer Learning Explanation".
 
 ./Data/HowToAccessData.md: Information for data access and download
 
